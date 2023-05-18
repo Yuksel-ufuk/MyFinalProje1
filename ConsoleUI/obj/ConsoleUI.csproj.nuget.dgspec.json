@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\yazılım geliştirme\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj": {}
+  },
+  "projects": {
+    "D:\\yazılım geliştirme\\MyFinalProject\\Business\\Business.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\yazılım geliştirme\\MyFinalProject\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\Business\\Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\yazılım geliştirme\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\yazılım geliştirme\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\yazılım geliştirme\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectName": "ConsoleUI",
+        "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\1Kedi7Beni\\.nuget\\packages\\",
+        "outputPath": "D:\\yazılım geliştirme\\MyFinalProject\\ConsoleUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\1Kedi7Beni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\yazılım geliştirme\\MyFinalProject\\Business\\Business.csproj": {
+                "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\Business\\Business.csproj"
+              },
+              "D:\\yazılım geliştirme\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\yazılım geliştirme\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\yazılım geliştirme\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "D:\\yazılım geliştirme\\MyFinalProject\\Entities\\Entities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
